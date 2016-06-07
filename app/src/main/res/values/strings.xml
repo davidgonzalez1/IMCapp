@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IMCApp</string>
+    <string name="texto_indicador_peso">Propocione el peso en kg:</string>
+    <string name="texto_indicador_estatura">Propocione la estatura en Metros:</string>
+    <string name="texto_botton_calcular">Calcular</string>
+    <string name="texto_mensaje_imc">El indice de masa corporal es:</string>
+    <string name="texto_botton_limpiar">Limpiar</string>
+    <string name="texto_indicador_estado">Estado nutricional:</string>
+    <string name="texto_indicador_nutricional"></string>
+</resources>

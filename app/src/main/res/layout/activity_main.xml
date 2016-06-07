@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ramon12.android.imcapp.MainActivity"
+    android:orientation="vertical"
+    android:focusableInTouchMode="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_indicador_peso" />
+    <EditText
+        android:id="@+id/edit_text_peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_indicador_estatura" />
+    <EditText
+        android:id="@+id/edit_text_estatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_botton_limpiar"
+            android:id="@+id/button_limpiar"
+            android:layout_gravity="right" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="@string/texto_botton_calcular"
+            android:id="@+id/button_calcular" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/texto_mensaje_imc" />
+    <TextView
+        android:id="@+id/text_view_imc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text=""/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_indicador_estado"
+        android:textSize="20dp"
+        android:id="@+id/text_view_estado"
+        android:layout_gravity="left" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_indicador_nutricional"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text_view_nutricional"/>
+
+</LinearLayout>
